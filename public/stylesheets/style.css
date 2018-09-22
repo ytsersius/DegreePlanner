@@ -1,9 +1,28 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-image: linear-gradient(to bottom right, #073376, #1677f1);
+  min-height: 100vh;
+  height: 100%;
 }
 
-a {
-  color: #00B7FF;
+.col-sm-4 {
+  background: #DADCDF;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.col-sm-8 {
+  color: #DADCDF; 
+  padding: 1.5em 1.5em;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+         color: #33a6cc;
+	 border-color: #33a6cc;
+}
+
+.btn-primary.outline:active, .btn-primary.outline.active {
+      border-color: #007299;
+      color: #007299;
+      box-shadow: none;
 }
